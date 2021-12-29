@@ -1,0 +1,87 @@
+diff -Naur hddtemp-0.3-beta14_orig/src/daemon.c hddtemp-0.3-beta14/src/daemon.c
+--- hddtemp-0.3-beta14_orig/src/daemon.c	2005-06-04 04:22:35.000000000 +0200
++++ hddtemp-0.3-beta14/src/daemon.c	2005-11-16 14:37:50.000000000 +0100
+@@ -39,6 +39,7 @@
+ #include <sys/types.h>
+ #include <sys/stat.h>
+ #include <sys/socket.h>
++#include <sys/un.h>
+ #include <arpa/inet.h>
+ #include <netdb.h>
+ #include <signal.h>
+@@ -62,6 +63,7 @@
+   struct addrinfo*   all_ai;
+   struct addrinfo    hints;
+   struct addrinfo*   resp;
++  struct sockaddr_un addr;
+   char               portbuf[10];
+   int                on = 1;
+   int                ret;
+@@ -80,6 +82,10 @@
+   /* Count max number of sockets we might open. */
+   for (sks_serv_num = 0, resp = all_ai ; resp ; resp = resp->ai_next)
+     sks_serv_num++;
++
++  /* extra num for unix socket */
++  sks_serv_num++;
++
+   sks_serv = malloc(sizeof(int) * sks_serv_num);
+   if (!sks_serv) {
+     perror("malloc");
+@@ -127,6 +133,30 @@
+   }
+     
+   freeaddrinfo(all_ai);
++  
++  bzero((char*) &addr, sizeof(addr));
++  addr.sun_family = AF_UNIX;
++  strncpy(addr.sun_path, UNIX_ADDR, sizeof addr.sun_path - 1);
++  addr.sun_path[sizeof addr.sun_path - 1] = '\0';
++
++  (void) unlink(addr.sun_path);
++
++  if ((sks_serv[sks_serv_num] = socket(PF_UNIX, SOCK_STREAM, 0)) == -1 ||
++       bind(sks_serv[sks_serv_num], (struct sockaddr *) &addr,
++             sizeof(addr.sun_family) + strlen(addr.sun_path)) ||
++        listen(sks_serv[sks_serv_num],5))
++  {
++    perror("unix");
++    for (sks_serv_num-- ; sks_serv_num > 0 ; sks_serv_num--)
++      close(sks_serv[sks_serv_num]);	      
++    free(sks_serv);
++    exit(1);	      
++  }
++  else
++  {
++    chmod(addr.sun_path, 0666);  
++    sks_serv_num++;
++  }
+ }
+ 
+ void daemon_update(struct disk *ldisks, int nocache) {
+@@ -151,6 +181,8 @@
+   
+   for (i = 0 ; i < sks_serv_num; i++)
+     close(sks_serv[i]);
++
++  (void) unlink(UNIX_ADDR);
+ }
+ 
+ void daemon_send_msg(struct disk *ldisks, int cfd) {
+@@ -401,4 +433,3 @@
+   if (syslog_interval > 0)
+     closelog();
+ }
+-
+diff -Naur hddtemp-0.3-beta14_orig/src/hddtemp.h hddtemp-0.3-beta14/src/hddtemp.h
+--- hddtemp-0.3-beta14_orig/src/hddtemp.h	2005-08-31 11:08:18.000000000 +0200
++++ hddtemp-0.3-beta14/src/hddtemp.h	2005-11-16 14:24:27.000000000 +0100
+@@ -32,6 +32,8 @@
+ #define MAX_ERRORMSG_SIZE      128
+ #define DEFAULT_ATTRIBUTE_ID   194
+ 
++#define UNIX_ADDR "/var/run/hddtemp.sock"
++
+ #define F_to_C(val) (int)(((double)(val)-32.0)/1.8)
+ #define C_to_F(val) (int)(((double)(val)*(double)1.8) + (double)32.0)
+ 

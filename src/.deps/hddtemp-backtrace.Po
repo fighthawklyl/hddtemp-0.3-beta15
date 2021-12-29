@@ -1,0 +1,10 @@
+hddtemp-backtrace.o: backtrace.c \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h:

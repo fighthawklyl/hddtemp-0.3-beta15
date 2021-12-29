@@ -1,0 +1,337 @@
+hddtemp-hddtemp.o: hddtemp.c ../config.h ../intl/libintl.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/locale.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include/stddef.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_locale.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/unistd.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix_opt.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_posix_opt.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/environments.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/confname.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/getopt.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitflags.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitstatus.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/endian.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/time.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigset.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/time.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/fcntl.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/fcntl.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/wchar.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wchar.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include/stdarg.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ioctl.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctls.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctls.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctls.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/ioctl.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctl.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctl.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctl-types.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ttydefaults.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/socket.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/uio.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uio.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/socket.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include-fixed/limits.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include-fixed/syslimits.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/limits.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix1_lim.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/local_lim.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/limits.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_local_lim.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix2_lim.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/socket_type.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sockaddr.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/socket.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/socket.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/sockios.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/sockios.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/arpa/inet.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/netinet/in.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include/stdint.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdint.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/in.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/netdb.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/netdb.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/getopt.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/signal.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/signum.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/siginfo.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigaction.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigcontext.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/sigcontext.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigstack.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigthread.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/errno.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/errno.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/hdreg.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/types.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/types.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/int-ll64.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/bitsperlong.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/posix_types.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/stddef.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/posix_types.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/posix_types.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/ctype.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_touplow.h \
+ /opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/assert.h \
+ ata.h hddtemp.h db.h utf8.h sata.h scsi.h backtrace.h daemon.h
+
+../config.h:
+
+../intl/libintl.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/locale.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/features.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/cdefs.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include/stddef.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_locale.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/unistd.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix_opt.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_posix_opt.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/environments.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wordsize.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/types.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/typesizes.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/confname.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/getopt.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdlib.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitflags.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/endian.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/endian.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/byteswap.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/types.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/time.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/select.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/select.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigset.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/time.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/alloca.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/fcntl.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/fcntl.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdio.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/wchar.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/wchar.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include/stdarg.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/string.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ioctl.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctls.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctls.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctls.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/ioctl.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/ioctl.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/ioctl.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/ioctl-types.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/ttydefaults.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/socket.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/sys/uio.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uio.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/socket.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include-fixed/limits.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include-fixed/syslimits.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/limits.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix1_lim.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/local_lim.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/limits.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_local_lim.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/posix2_lim.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/socket_type.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sockaddr.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/socket.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/socket.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/sockios.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/sockios.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/arpa/inet.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/netinet/in.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/lib/gcc/arm-buildroot-linux-uclibcgnueabihf/4.9.4/include/stdint.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/stdint.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/in.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/netdb.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/netdb.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/getopt.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/signal.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/signum.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/siginfo.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigaction.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigcontext.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/sigcontext.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigstack.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/sigthread.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/errno.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/errno.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/errno.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/errno.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/errno-base.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/hdreg.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/types.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/types.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/bitsperlong.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/posix_types.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/linux/stddef.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm/posix_types.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/asm-generic/posix_types.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/ctype.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/bits/uClibc_touplow.h:
+
+/opt/mstar-linux/arm-buildroot-linux-uclibcgnueabihf-4.9.4-uclibc-1.0.31/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/include/assert.h:
+
+ata.h:
+
+hddtemp.h:
+
+db.h:
+
+utf8.h:
+
+sata.h:
+
+scsi.h:
+
+backtrace.h:
+
+daemon.h:
