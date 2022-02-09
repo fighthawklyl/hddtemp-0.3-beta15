@@ -12,3 +12,6 @@ db_path=\"/mnt/mtd/Config/hddtemp.db\"
 修改src目录下makefile添加libiconv.so链接
 hddtemp_LDADD = ${top_builddir}/intl/libintl.a ${top_builddir}/conv/libiconv.so
 INCLUDES = -I. -I$(srcdir) -I.. -I../intl -I$(top_srcdir)/intl -I. -I$(srcdir) -I.. -I../conv -I$(top_srcdir)/conv
+
+去除src/hddtemp.c中的degree相关东西后可以不依赖libiconv.so
+degree = degree_sign();
