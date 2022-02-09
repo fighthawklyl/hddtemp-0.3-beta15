@@ -10,6 +10,5 @@ db_path=\"/mnt/mtd/Config/hddtemp.db\"
 ./configure --host=arm-buildroot-linux  --target=arm-buildroot-linux CC=arm-buildroot-linux-uclibcgnueabihf-gcc 
 
 修改src目录下makefile添加libiconv.so链接
-
-${top_builddir}/conv/libiconv.so
--I. -I$(srcdir) -I.. -I../conv -I$(top_srcdir)/conv
+hddtemp_LDADD = ${top_builddir}/intl/libintl.a ${top_builddir}/conv/libiconv.so
+INCLUDES = -I. -I$(srcdir) -I.. -I../intl -I$(top_srcdir)/intl -I. -I$(srcdir) -I.. -I../conv -I$(top_srcdir)/conv
